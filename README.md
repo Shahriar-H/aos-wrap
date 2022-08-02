@@ -28,7 +28,7 @@ Demo:
 <h1 style="--i:COLOR-NAME" class="overAnimCon">Hello Bro</h1>
 ```
 *Replace your color to the COLOR-NAME or use Transparent for no color
+**Contratulation!**
 
-
-**We are working to update this library with new features and experiances, stay with us. 
+*We are working to update this library with new features and experiances, stay with us.*
 
