@@ -30,4 +30,5 @@ Demo:
 *Replace your color to the COLOR-NAME or use Transparent for no color
 
 
+**We are working to update this library with new features and experiances, stay with us. 
 
