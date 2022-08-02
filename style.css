@@ -1,0 +1,56 @@
+:root{
+    --i:red
+}
+
+.overAnimCon{
+    position: relative;
+    animation: hideShowanim1 .5s linear;
+    -webkit-animation: hideShowanim1 .5s linear;
+    padding-left:150px ;
+    width: fit-content;
+    
+}
+.overAnimCon::after{
+    content: '';
+    height: 100%;
+    width: 0px;
+
+    background-color: var(--i);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: -10px;
+    overflow: hidden;
+    animation: hideShowanim12 1.5s linear;
+    -webkit-animation: hideShowanim12 1.5s linear;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+   
+    opacity: 0;
+}
+@keyframes hideShowanim12 {
+    0%{
+        width: 110%;
+        opacity: 1;
+     }60%{
+         width: 110%;
+     }80%{
+         width: 110%;
+         opacity: 1;
+     }100%{
+         width: 0px;
+         opacity: 0;
+     }
+ }
+
+ @keyframes hideShowanim1 {
+    0%{
+        margin-left:-1000px ;
+
+    }100%{
+        margin-left: 0px;
+    }
+}
